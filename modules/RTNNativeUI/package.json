@@ -1,0 +1,29 @@
+{
+  "name": "RTNNativeUI",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "js/NativeUI",
+  "react-native": "js/NativeUI",
+  "source": "js/NativeUI",
+  "files": [
+    "js",
+    "android",
+    "!android/build",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "codegenConfig": {
+    "name": "RTNNativeUI",
+    "type": "modules",
+    "jsSrcsDir": "js",
+    "android": {
+      "javaPackageName": "com.fuulea.nativeui"
+    }
+  }
+}
