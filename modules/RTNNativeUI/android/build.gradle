@@ -39,7 +39,5 @@ repositories {
 }
 
 dependencies {
-  // 公用UI组件库
-  implementation project(":UI")
   implementation 'com.facebook.react:react-native'
 }
